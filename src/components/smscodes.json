@@ -1,0 +1,53 @@
+
+
+/* ERROR SMS VALIDATION */
+
+// https://sandbox.cognoris.com:8551/api/applications/sendCode
+
+{
+    "status": 404,
+    "message": "Invalid session"
+}
+
+{
+    "status": 400,
+    "message": "SMS Code Not Valid."
+}
+
+/* SMS VALIDATED */
+
+{
+    "status": 200,
+    "message": "SMS Code validated"
+}
+
+
+{
+    "status": 200,
+    "message": "SMS Code Sent to customer."
+}
+
+
+
+
+
+//////
+
+
+{
+    "status": 400,
+    "errorCode": 430,
+    "message": "Field token is Empty"
+}   
+
+{
+    "status": 400,
+    "isPhoneValid": false,
+    "message": "SMS Code is Not Valid."
+}
+
+{
+    "status": 200,
+    "isPhoneValid": true,
+    "message": "SMS Code is valid."
+}
